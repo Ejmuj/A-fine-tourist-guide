@@ -1,0 +1,27 @@
+.tour-container {
+    background-color: rgb(118, 118, 118);
+    display: grid;
+    gap: 1px;
+    padding: 1px;
+  }
+
+  .tour-item {
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 20px;
+    font-size: 30px;
+  }
+
+  p {
+    font-size: 20px;
+  }
+
+  p2 {
+    font-weight: 700;
+  }
+
+  .item2 {
+    grid-column: 1 / span 3;
+    grid-row: 1;
+    height: 100px;
+  }
